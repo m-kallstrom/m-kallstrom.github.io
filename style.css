@@ -1,0 +1,133 @@
+* {
+  font-family: garamond;
+  line-height: 1.75;
+}
+
+div {
+  margin: auto;
+  width: 70%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: "lucida handwriting", cursive;
+  text-shadow: 2px 1px black;
+  color: #ffbf00;
+}
+
+h2 {
+  border: black 1px;
+  background: url(honeycomb.jpg);
+  padding: 1em;
+  border-radius: 25px;
+  font-family: helvetica;
+  text-align: center;
+  text-shadow: 2px 1px white;
+  margin: auto;
+  width: 100%;
+}
+
+blockquote {
+  font-size: 12px;
+  text-align: center;
+}
+
+table {
+  border: 2px gray;
+  margin: auto;
+  padding: 1em;
+}
+
+td {
+  padding: 0.5em;
+  font-size: 20px;
+}
+
+th {
+  padding: 0.5em;
+  font-size: 25px;
+}
+
+
+a:link {
+    color: #cc0099;
+}
+
+a:visited {
+    color: #0099cc;
+}
+
+a:hover {
+    color: #ffbf00;
+}
+
+a:active {
+    color: #33cc33;
+}
+
+.credit {
+  font-size: 10px;
+  color: gray;
+  padding-left: 6em;
+}
+
+.indent {
+  text-indent: 20px;
+}
+
+#tips {
+  text-align: center;
+}
+
+#bee-flower {
+  border-radius: 25px;
+  width: 95%;
+  display: block;
+  margin: auto;
+}
+
+#bush-bees {
+  width: 90%;
+  display: block;
+  margin: auto;
+  padding-top: 1em;
+}
+
+#bees-vs-wasps {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+#save-bees {
+ border-radius: 30px;
+ display: block;
+ width: 70%;
+ margin: auto;
+ padding-top: 1em;
+}
+
+#bee-vengeance {
+  display: block;
+  margin: auto;
+  padding-top: 1em;
+  border-radius: 40px;
+
+}
+
+@media screen and (min-width: 1000px) {
+  div {
+    width: 80%;
+  }
+}
+
+/* Padding and border added to at least one element
+Margin added to at least one element
+At least one centered element (a footer message can be nice for this)
+A background image on at least one element
+A different font on at least one element
+A few elements styled using a class
+A different color for visited links
+An element styled with an ID
+*/
